@@ -3,10 +3,10 @@ package com.tnsif.string;
 public class StringDemo {
 	public static void main(String[] args)
 	{
-		String a = new String("RutujaGite");  // way1 Heap/string constant pool
+		String a = new String("RutujaGite");  // way1 Heap/string constant pool / cpy of object not allowed
 		System.out.println(a);	
 		
-		String a1 ="Gite"; //way 2 string constant pool
+		String a1 ="Gite"; //way 2 string constant pool / obj is directly created
 		System.out.println(a1);	
 		
 			
